@@ -1,3 +1,5 @@
+![SmartShield Guardian Banner](banner.jpg)
+
 # Hi there, I'm Brahim Hamlili 👋
 
 Technician in **IT Networks and Technical Maintenance**, focusing on systems troubleshooting and software architecture design—building practical tools and security concepts with a strong emphasis on performance, clarity, and intellectual property protection.
