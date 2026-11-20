@@ -54,6 +54,9 @@ SmartShield Guardian is built to resolve the traditional conflict between heavy 
 
 ## 💻 Repository Structure & Prototypes
 
+> **⚠️ Architectural Prototype Disclaimer:**  
+> Both `guardian.py` and `guardian_extended.py` are **proof-of-concept prototypes** written in Python to demonstrate the architectural workflow, decision logic, and defense concepts of SmartShield Guardian. They do **not** provide active OS-level malware removal, kernel hooks, or real-time system protection. Production deployment requires low-level systems implementation (e.g., **C++** or **Rust**) with native OS drivers and hardware GPU compute APIs.
+
 This repository provides two Python prototype implementations demonstrating the architectural workflow and defense logic, alongside a long-term roadmap toward low-level systems languages (**C++** or **Rust**) for kernel-level drivers and high-throughput OS integration:
 
 | File | Role | Description |
