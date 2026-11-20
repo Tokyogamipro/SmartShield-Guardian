@@ -1,12 +1,19 @@
-# Python bytecode and virtual environments
+# SmartShield Guardian Runtime & Staging Directories
+smartshield_canaries/
+smartshield_quarantine/
+
+# Python Bytecode & Cache
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
+
+# Virtual Environments
 .venv/
+venv/
 env/
 
-# SmartShield Guardian local runtime/test artifacts
-smartshield_canaries/
-smartshield_quarantine
-/
+# IDE & OS Temporary Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
