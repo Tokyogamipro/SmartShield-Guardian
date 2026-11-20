@@ -63,6 +63,7 @@ This repository provides two Python prototype implementations demonstrating the 
 | :--- | :--- | :--- |
 | `guardian.py` | **Core Prototype** | Streamlined, zero-side-effect simulation illustrating the end-to-end defense lifecycle (boot check, Zero-Baseline tracking, GPU scan offloading, sandboxing, ransomware canary alert, and shutdown deep scan). |
 | `guardian_extended.py` | **Extended Prototype** | Expanded object-oriented implementation featuring typed data structures (`dataclasses`, `Enum`), SHA-256 file hashing, local canary file deployment/verification, and quarantine staging. |
+| `PITCH.md` | **Project Pitch** | Executive overview and value proposition in English and Arabic outlining the problem, solution, current prototype status, and C++/Rust roadmap. |
 
 ---
 
@@ -71,3 +72,4 @@ This repository provides two Python prototype implementations demonstrating the 
 Copyright © 2026 **Brahim Hamlili**. All rights reserved.
 
 This architecture, documentation, and associated prototype code are proprietary to **Brahim Hamlili** and governed by the repository's `LICENSE` terms.
+
