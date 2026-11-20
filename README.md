@@ -52,9 +52,15 @@ SmartShield Guardian is built to resolve the traditional conflict between heavy 
 
 ---
 
-## 💻 Prototype & Future Roadmap
+## 💻 Repository Structure & Prototypes
 
-This repository contains a functional Python prototype demonstrating the architectural workflow and defense logic. For production and deep operating-system integration (such as kernel-level drivers and high-throughput scanning), the architecture is designed to scale toward low-level systems languages like **C++** or **Rust**.
+This repository provides two Python prototype implementations demonstrating the architectural workflow and defense logic, alongside a long-term roadmap toward low-level systems languages (**C++** or **Rust**) for kernel-level drivers and high-throughput OS integration:
+
+| File | Role | Description |
+| :--- | :--- | :--- |
+| `guardian.py` | **Core Prototype** | Streamlined, zero-side-effect simulation illustrating the end-to-end defense lifecycle (boot check, Zero-Baseline tracking, GPU scan offloading, sandboxing, ransomware canary alert, and shutdown deep scan). |
+| `guardian_extended.py` | **Extended Prototype** | Expanded object-oriented implementation featuring typed data structures (`dataclasses`, `Enum`), SHA-256 file hashing, local canary file deployment/verification, and quarantine staging. |
+| `LICENSE` | **Proprietary License** | Governs copyright and commercial rights for the architecture and code. |
 
 ---
 
@@ -62,5 +68,4 @@ This repository contains a functional Python prototype demonstrating the archite
 
 Copyright © 2026 **Brahim Hamlili**. All rights reserved.
 
-This architecture, documentation, and associated prototype code are proprietary to **Brahim Hamlili** and governed by the repository's `LICENSE` term
-s.
+This architecture, documentation, and associated prototype code are proprietary to **Brahim Hamlili** and governed by the repository's `LICENSE` terms.
