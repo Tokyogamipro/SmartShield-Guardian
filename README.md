@@ -1,3 +1,9 @@
+# Hi there, I'm Brahim Hamlili 👋
+
+Technician in **IT Networks and Technical Maintenance**, focusing on systems troubleshooting and software architecture design—building practical tools and security concepts with a strong emphasis on performance, clarity, and intellectual property protection.
+
+---
+
 # SmartShield Guardian 🛡️
 
 SmartShield Guardian is a high-performance security architecture eliminating the CPU lag vs. security trade-off via Zero-Baseline future tracking, GPU scan offloading, boot/external media checks, sandboxing, ransomware canary files, self-protection, and deep idle/shutdown scans.
