@@ -1,0 +1,12 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# SmartShield Guardian local runtime/test artifacts
+smartshield_canaries/
+smartshield_quarantine
+/
